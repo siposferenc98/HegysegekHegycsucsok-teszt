@@ -1,0 +1,93 @@
+#doboz {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+    width: 50vw;
+    
+   
+}
+
+
+
+legend {
+    padding:1rem;
+    text-align: left;
+}
+
+
+p {
+    position: relative;
+    left:10%;
+    margin: 0px;
+    text-align: left;
+}
+
+fieldset {
+    border:0;
+    
+}
+
+table{
+    padding-top: 10px;
+    text-align: left;
+    position: relative;
+    left:5%;
+    border-collapse: separate;
+    border-spacing: 50px 0px;
+}
+
+img {
+    width: 300px;
+    padding:10px;
+}
+
+.bukk {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.bukk + img {
+    cursor: pointer;
+  }
+
+.bukk:checked + img {
+    outline: 2px solid rgb(32, 11, 221);
+}
+
+span {
+    position: absolute;
+    left:50%;
+}
+
+#slider {
+    width: 50%;
+}
+#mutato {
+    position: relative;
+    padding:5px;
+    width:70px;
+    height: 30px;
+    border: 2px solid black;
+}
+
+#ezer {
+    width: 50px;
+}
+
+#elvalaszto {
+    width: 100%;
+    margin-top: 20px;
+    padding:20px;
+    border-top: 2px solid black;
+}
+
+#elkuld {
+    position: relative;
+    left:20%;
+    margin-bottom: 20px;
+}
+#hatodik {
+    width:60%;
+}
